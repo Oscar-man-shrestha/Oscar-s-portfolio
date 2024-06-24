@@ -1,0 +1,49 @@
+
+:root{
+    --name : "oscar"
+}
+
+
+
+
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: yellow;
+}
+.div3{
+    background-color: blue;
+}
+p::before{
+
+    background-color: blue;
+  
+content: var(--name);
+font-size: 100px;
+}
+p::after{
+    background-color: blue;
+    content: var(--name);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+span{
+    background-color: red;
+}
