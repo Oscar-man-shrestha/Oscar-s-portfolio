@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+:root{
+  --primarycolor:" rgb(48, 48, 201);"
+
+}
+
+nav ul{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    text-align: center;
+     
+}
+
+
+nav{
+    background-color: rgb(68, 68, 68);
+    border-bottom: 1px solid rgb(47, 45, 45);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+
+
+
+   
+    
+}
+nav h1{
+    padding-left: 10px;
+}
+nav ul li{
+    color: rgb(255, 255, 255);
+    
+}
+
+nav ul li:hover{
+   cursor: pointer;
+   text-decoration: underline;
+   
+}
+.socialmedia img{
+ border-radius: 50%;
+    height: 2rem;
+    
+}
+.socialmedia{
+   
+    width: 13rem;
+    display: flex;
+  
+    justify-content: space-evenly;
+  
+}
+
+.hero{
+    height: 92vh;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+}
+.hero .left{
+    background-color: rgb(68, 68, 68);
+    height: 100%;
+    width: 50%;
+    line-height: 3rem;
+}
+.hero .right{
+    background-color: rgb(68, 68, 68);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.left p{
+    color: wheat;
+}
+.left h1{
+    color: black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 50px;
+}
+.socialMediaName{
+    width: 12rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: -10px;
+    cursor: pointer;
+    text-decoration: underline;
+   
+}
+.socialMediaName p{
+    color: aliceblue;
+    font-size: 15px;    
+}
+a{
+    text-decoration: none;
+    color: black; 
+
+}
+
+.hero .right img{
+    border-radius: 10px 100px / 120px;
+    height: 489px;
+
+    
+}
+.services {
+height: 100vh;
+background-color: rgb(255, 255, 255);
+display: grid;
+grid-template-columns: repeat(3,1FR);
+gap: 1rem;
+padding-top: 50px ;
+
+
+
+}
+.services div{
+height: 15rem;
+width: 26rem;
+display: flex;
+flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+   line-height: rem;
+   padding: 20px;
+   margin-left: 6px;
+background-color: yellow;
+border-radius: 25% 10%;
+}
+
+.services img{
+    height: 75px;
+    width: 84px;
+}
+.services div p{
+    padding: 30px;
+}
+h1{
+    color: black;
+    text-align: center;
+
+    font-size: 46px;
+    margin-top: 7px;
+ 
+}
+.services .div:hover{
+    cursor: pointer;
+
+    background-color: red;
+    
+ }
