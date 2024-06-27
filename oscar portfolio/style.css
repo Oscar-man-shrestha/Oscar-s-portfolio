@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+    
 }
 :root{
   --primarycolor:" rgb(48, 48, 201);"
@@ -14,6 +15,7 @@ nav ul{
     justify-content: space-evenly;
     font-size: 1rem;
     text-align: center;
+    padding-top: 20px;
      
 }
 
@@ -33,15 +35,19 @@ nav{
 }
 nav h1{
     padding-left: 10px;
+    text-decoration: none;
 }
 nav ul li{
     color: rgb(255, 255, 255);
+     text-decoration: none;
+     transition: color 0.4s ease-out;
     
 }
 
 nav ul li:hover{
    cursor: pointer;
    text-decoration: underline;
+   color: rgb(32, 158, 201);
    
 }
 .socialmedia img{
@@ -62,12 +68,16 @@ nav ul li:hover{
     height: 92vh;
     background-color: rgb(68, 68, 68);
     display: flex;
+    color: black;
+    text-decoration: none;
 }
 .hero .left{
     background-color: rgb(68, 68, 68);
     height: 100%;
     width: 50%;
     line-height: 3rem;
+    text-decoration: none;
+    color: black;
 }
 .hero .right{
     background-color: rgb(68, 68, 68);
@@ -76,7 +86,7 @@ nav ul li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    text-decoration: none;
     
 }
 .hero .left{
@@ -87,13 +97,29 @@ nav ul li:hover{
     
     
 }
+
 .left p{
     color: wheat;
+    margin-top: px;
+    gap: 1px;
+  
+}
+.myname{
+    
+    margin-top: -20px;
+    gap: 1px;
+    margin-bottom: -31px;
+
+    margin-right: 10px;
+  
 }
 .left h1{
     color: black;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 50px;
+gap: 2px;
+margin-right: 55px;
+margin-top: -20000000;
 }
 .socialMediaName{
     width: 12rem;
@@ -103,7 +129,7 @@ font-size: 50px;
     align-items: baseline;
     margin: -10px;
     cursor: pointer;
-    text-decoration: underline;
+   text-decoration: none;
    
 }
 .socialMediaName p{
@@ -119,12 +145,13 @@ a{
 .hero .right img{
     border-radius: 10px 100px / 120px;
     height: 489px;
+    box-shadow: 100px;
 
     
 }
 .services {
 height: 100vh;
-background-color: rgb(255, 255, 255);
+background-color: rgb(82, 90, 112);
 display: grid;
 grid-template-columns: repeat(3,1FR);
 gap: 1rem;
@@ -134,17 +161,20 @@ padding-top: 50px ;
 
 }
 .services div{
-height: 15rem;
-width: 26rem;
+height: 18rem;
+width: 28rem;
 display: flex;
 flex-direction: column;
     border: 1px solid black;
     align-items: center;
    line-height: rem;
-   padding: 20px;
-   margin-left: 6px;
-background-color: yellow;
+   padding: 24px;
+   margin-left: 30px;
+   margin-top: 21PX;
+   gap: -92;
+background-color: rgb(69, 138, 169);
 border-radius: 25% 10%;
+
 }
 
 .services img{
@@ -152,14 +182,25 @@ border-radius: 25% 10%;
     width: 84px;
 }
 .services div p{
-    padding: 30px;
+    padding: 1px;
 }
 h1{
     color: black;
     text-align: center;
-
+text-decoration: underline;
     font-size: 46px;
-    margin-top: 7px;
+    margin-top: 24px;
+    margin-left: 35PX;
+ 
+}
+.left h1{
+    color: black;
+    text-align: center;
+text-decoration: none;
+    font-size: 46px;
+    margin-top: 24px;
+    margin-left: 35PX;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
  
 }
 .services .div:hover{
@@ -168,3 +209,261 @@ h1{
     background-color: red;
     
  }
+ #projects{
+    height: 100vh;
+    width: 100%;
+   padding: 2rem;
+ }
+
+ carousel-inner{
+    border: 2px solid black;
+ }
+ #contact{
+  
+    height: 100vh;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px;
+    margin-left: 0px;
+display: flex;
+   
+    
+
+ }
+ 
+
+ .contactLeft{
+     height: 100vh;
+    width: 50%;
+ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+ background-color: rgb(226, 216, 216);  
+ }
+ .contactRight{
+    height: 100vh;
+    width: 75%;
+
+    background-color: rgb(226, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+ .contactForm{
+     height: 55vh;
+    width: 50%;
+ padding: 23px;
+    background-color: rgb(255, 255, 255);
+    border-radius:20px;
+    box-shadow: 0 0 10px rgba(0,0, 0, 1); }
+    .card {
+        width: 353px;
+        height: 150px;
+        padding: 0.5rem;
+        background: rgba(198, 198, 198, 0.34);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+        border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+        box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+        transform: skewX(10deg);
+        transition: .4s;
+        overflow: hidden;
+        color: rgb(8, 8, 8);
+      }
+      
+      .card:hover {
+        height: 300px;
+        transform: skew(0deg);
+      }
+      
+      .align {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-self: flex-start;
+      }
+      
+      .red {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ff605c;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+      }
+      
+      .yellow {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ffbd44;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+      }
+      
+      .green {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #00ca4e;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+      }
+      
+      .card h1 {
+        text-align: center;
+        margin: 1.3rem;
+        color: rgb(218, 244, 237);
+        text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+      }
+      
+      
+    
+ 
+ label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+ }
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#submit{
+    background-color: blue;
+    color: yellow;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 10);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.4s ease-in-out;
+    width: 150px;
+
+
+}
+#submit:hover{
+    background-color: rgb(41, 47, 206);
+} 
+ .contactMe{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 100px;
+} 
+#moreInfo{
+    color: rgb(0, 149, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+ul {
+    list-style: none;
+  }
+  
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    margin-right: 29px;
+  }
+  .example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+  }
+  .example-2 .icon-content .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  .example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+  }
+  .example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  }
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  .example-2 .icon-content a:hover {
+    color: white;
+  }
+  .example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover .filled {
+    height: 100%;
+  }
+  
+  .example-2 .icon-content a[data-social="linkedin"] .filled,
+  .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+    background-color: #0274b3;
+  }
+  
+  .example-2 .icon-content a[data-social="github"] .filled,
+  .example-2 .icon-content a[data-social="github"] ~ .tooltip {
+    background-color: #24262a;
+  }
+  .example-2 .icon-content a[data-social="instagram"] .filled,
+  .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+    background: linear-gradient(
+      45deg,
+      #405de6,
+      #5b51db,
+      #b33ab4,
+      #c135b4,
+      #e1306c,
+      #fd1f1f
+    );
+  }
+  .example-2 .icon-content a[data-social="youtube"] .filled,
+  .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+    background-color: #ff0000;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    
+    bottom: 0;
+    width: 100%;
+}
