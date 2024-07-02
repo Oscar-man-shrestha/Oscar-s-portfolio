@@ -1,0 +1,46 @@
+/* p{
+    animation: HelloWorld 5s ease-in infinite; 
+
+}
+@keyframes HelloWorld {
+
+0%{
+    color : rgb(0, 0, 255);
+} 
+50%{
+    color : rgb(155, 179, 213);
+    margin-left: 100vh;
+}    
+100% {
+    color: rgb(181, 172, 242);
+    font-size: 100px;
+}
+}                                                                    */
+.container{
+    width: 100vw;
+}
+.div1{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    animation :changeBgColor 2s ease-in infinite;
+
+}
+
+@keyframes changeBgColor {
+    0% {
+        background-color:red;
+
+    }
+    50%{
+        background-color: blue;
+        border: 20PX solid black;
+margin-left: 100%;
+    }
+    100% {
+        background-color:green;
+        margin: 0%;
+        
+    }
+}

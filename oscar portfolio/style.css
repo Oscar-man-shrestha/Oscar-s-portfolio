@@ -21,8 +21,8 @@ nav ul{
 
 
 nav{
-    background-color: rgb(68, 68, 68);
-    border-bottom: 1px solid rgb(47, 45, 45);
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +53,8 @@ nav ul li:hover{
 .socialmedia img{
  border-radius: 50%;
     height: 2rem;
+    border: 1px solid white;
+    background-color: white;
     
 }
 .socialmedia{
@@ -66,13 +68,13 @@ nav ul li:hover{
 
 .hero{
     height: 92vh;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(0, 0, 0);
     display: flex;
     color: black;
     text-decoration: none;
 }
 .hero .left{
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(0, 0, 0);
     height: 100%;
     width: 50%;
     line-height: 3rem;
@@ -80,7 +82,7 @@ nav ul li:hover{
     color: black;
 }
 .hero .right{
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(0, 0, 0);
     height: 100%;
     width: 50%;
     display: flex;
@@ -151,7 +153,7 @@ a{
 }
 .services {
 height: 100vh;
-background-color: rgb(82, 90, 112);
+background-color: rgb(0, 0, 0);
 display: grid;
 grid-template-columns: repeat(3,1FR);
 gap: 1rem;
@@ -165,19 +167,35 @@ height: 18rem;
 width: 28rem;
 display: flex;
 flex-direction: column;
-    border: 1px solid black;
-    align-items: center;
-   line-height: rem;
-   padding: 24px;
-   margin-left: 30px;
-   margin-top: 21PX;
-   gap: -92;
-background-color: rgb(69, 138, 169);
+align-items: center;
+line-height: rem;
+padding: 24px;
+margin-left: 30px;
+margin-top: 21PX;
+gap: -92;
+background-color: rgb(245, 0, 9);
 border-radius: 25% 10%;
+animation: services 5s ease-in infinite;
 
 }
 
-.services img{
+@keyframes services {
+  0% {
+    background-color: #fd1f1f;
+  }
+
+  50% {
+    background-color: black;
+  }
+
+  100% {
+    background-color: #fd1f1f;
+  }
+ 
+}
+
+  
+  .services img{
     height: 75px;
     width: 84px;
 }
