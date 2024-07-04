@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+
     
 }
 :root{
@@ -21,13 +22,14 @@ nav ul{
 
 
 nav{
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(31, 28, 28);
     border-bottom: 1px solid rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
-
+   width: 100%;
+    position: fixed;
 
 
    
@@ -36,9 +38,14 @@ nav{
 nav h1{
     padding-left: 10px;
     text-decoration: none;
+    color: rgb(219, 214, 214);
+    padding: 0px;
+  margin-left: 30px;
+   
+ 
 }
 nav ul li{
-    color: rgb(255, 255, 255);
+  color: rgb(209, 39, 39); 
      text-decoration: none;
      transition: color 0.4s ease-out;
     
@@ -48,6 +55,7 @@ nav ul li:hover{
    cursor: pointer;
    text-decoration: underline;
    color: rgb(32, 158, 201);
+   
    
 }
 .socialmedia img{
@@ -61,28 +69,27 @@ nav ul li:hover{
    
     width: 13rem;
     display: flex;
-  
     justify-content: space-evenly;
   
 }
 
 .hero{
-    height: 92vh;
-    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    background-color: rgb(31, 28, 28);
     display: flex;
     color: black;
     text-decoration: none;
 }
 .hero .left{
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(31, 28, 28);
     height: 100%;
     width: 50%;
     line-height: 3rem;
     text-decoration: none;
-    color: black;
+    color: rgb(209, 39, 39); 
 }
 .hero .right{
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(31, 28, 28);
     height: 100%;
     width: 50%;
     display: flex;
@@ -101,7 +108,7 @@ nav ul li:hover{
 }
 
 .left p{
-    color: wheat;
+  color: rgb(225, 215, 215); 
     margin-top: px;
     gap: 1px;
   
@@ -116,7 +123,7 @@ nav ul li:hover{
   
 }
 .left h1{
-    color: black;
+  color: rgb(209, 39, 39); 
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 50px;
 gap: 2px;
@@ -140,8 +147,8 @@ margin-top: -20000000;
 }
 a{
     text-decoration: none;
-    color: black; 
-
+    color: rgb(215, 209, 209); 
+    
 }
 
 .hero .right img{
@@ -153,11 +160,12 @@ a{
 }
 .services {
 height: 100vh;
-background-color: rgb(0, 0, 0);
+background-color: rgb(31, 28, 28);
 display: grid;
 grid-template-columns: repeat(3,1FR);
 gap: 1rem;
-padding-top: 50px ;
+padding-top: 50px;
+
 
 
 
@@ -175,7 +183,7 @@ margin-top: 21PX;
 gap: -92;
 background-color: rgb(245, 0, 9);
 border-radius: 25% 10%;
-animation: services 5s ease-in infinite;
+animation: services 10s ease-in infinite;
 
 }
 
@@ -185,7 +193,7 @@ animation: services 5s ease-in infinite;
   }
 
   50% {
-    background-color: black;
+    background-color: rgb(221, 213, 213);
   }
 
   100% {
@@ -203,20 +211,30 @@ animation: services 5s ease-in infinite;
     padding: 1px;
 }
 h1{
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
 text-decoration: underline;
     font-size: 46px;
     margin-top: 24px;
     margin-left: 35PX;
  
+ 
 }
+.servicess{
+  background-color: rgb(31, 28, 28);
+  margin: 0px;
+  color: white;
+  padding: 0px;
+
+  
+}
+
 .left h1{
-    color: black;
+      color: rgb(209, 39, 39); 
     text-align: center;
 text-decoration: none;
-    font-size: 46px;
-    margin-top: 24px;
+    font-size: 35px;
+    margin-top: 15px;
     margin-left: 35PX;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
  
@@ -232,6 +250,12 @@ text-decoration: none;
     width: 100%;
    padding: 2rem;
  }
+ #projects,h1{
+  background-color: rgb(31, 28, 28);
+  color: white;
+  margin: 0px;
+  padding: 40px;
+ }
 
  carousel-inner{
     border: 2px solid black;
@@ -240,8 +264,8 @@ text-decoration: none;
   
     height: 100vh;
     width: 100%;
-    padding: 10px 10px;
-    margin: 20px;
+    padding: 0px;
+    margin: 0px;
     margin-left: 0px;
 display: flex;
    
@@ -264,7 +288,7 @@ display: flex;
  .contactRight{
     height: 100vh;
     width: 75%;
-
+margin: 0px;
     background-color: rgb(226, 216, 216);
     display: flex;
     align-items: center;
@@ -333,7 +357,8 @@ display: flex;
       
       .card h1 {
         text-align: center;
-        margin: 1.3rem;
+        background-color: transparent;
+        margin: -0.7rem;
         color: rgb(218, 244, 237);
         text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
       }
@@ -378,6 +403,7 @@ padding-top: 100px;
     color: rgb(0, 149, 255);
     padding: 10px;
     border-radius: 20px;
+    
 }
 ul {
     list-style: none;
@@ -484,4 +510,9 @@ ul {
     
     bottom: 0;
     width: 100%;
+}
+.w-100{
+padding: 20px;
+height: 98vh;
+ 
 }
